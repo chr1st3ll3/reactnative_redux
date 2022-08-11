@@ -1,0 +1,10 @@
+import { combineReducers } from "redux";
+import todos from "./todos";
+import login from "./login";
+import logout from "./logout";
+import panels from "./panels";
+import themes from "./themes";
+import medias from "./medias";
+import members from "./members";
+import map from "./map";
+export default combineReducers({ todos, login, logout, panels, themes, medias, members, map});

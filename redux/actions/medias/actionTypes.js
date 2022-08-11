@@ -1,0 +1,1 @@
+export const GET_MEDIAS = "GET_MEDIAS";
